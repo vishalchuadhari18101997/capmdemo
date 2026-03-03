@@ -6,8 +6,8 @@ POST http://localhost:4004/odata/v4/employee/employee HTTP/1.1
 Content-Type: application/json
 
 {
-"employeeID" : "1001",
-    "name" : "Vishal",
+
+    "name" : "Chetan",
     "dob" : "18/10/1997",
     "mobno" : "123456789",
     "experience" : 4.2
@@ -16,4 +16,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:4004/odata/v4/employee/employee(employeeID='1001') HTTP/1.1
+DELETE http://localhost:4004/odata/v4/employee/employee(employeeID='10051') HTTP/1.1
